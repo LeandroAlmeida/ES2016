@@ -7,7 +7,7 @@ from operator import itemgetter
 import datetime
 import time
 
-ACCESS_TOKEN = '558df36855f81934d8930b21e292b017c82d140e'
+ACCESS_TOKEN = 'Your OAuth access token!'
 client = Github(ACCESS_TOKEN, per_page=100)
 import sys
 try:
